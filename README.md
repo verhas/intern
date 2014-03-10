@@ -13,3 +13,11 @@ Interned objects in a pool are represented with a single instance when they are 
 will become `a == b` if `a.equals(b)` was true before interning even if `a == b` was not true before interning.
 
 The library is thread safe.
+
+```
+<dependency>
+  <groupId>com.javax0</groupId>
+  <artifactId>intern</artifactId>
+  <version>1.0.0</version>
+</dependency>
+```
